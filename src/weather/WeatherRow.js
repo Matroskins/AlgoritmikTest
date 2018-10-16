@@ -26,8 +26,8 @@ const WeatherRow = ({ weather }) => {
             <WeekDayName>{getDayName(weatherDate.getDay())}</WeekDayName>
           </div>
           <div>
-            <MonthName>{getMonthName(weatherDate.getMonth())}</MonthName>
             <MonthDateNumber>{weatherDate.getDate()}</MonthDateNumber>
+            <MonthName>{getMonthName(weatherDate.getMonth())}</MonthName>
           </div>
         </WeatherDateGroup>
         <WeatherInfoGroup>

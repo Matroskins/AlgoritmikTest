@@ -12,18 +12,18 @@ export const getDayName = dayNumber => {
 };
 export const getMonthName = monthNumber => {
   const months = [
-    "January",
-    "February",
-    "March",
-    "April",
+    "Jan",
+    "Feb",
+    "Mar",
+    "Apr",
     "May",
     "Jun",
-    "July",
-    "August",
-    "September",
-    "October",
-    "November",
-    "December"
+    "Jul",
+    "Aug",
+    "Sep",
+    "Oct",
+    "Nov",
+    "Dec"
   ];
   return months[monthNumber];
 };

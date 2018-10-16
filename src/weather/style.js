@@ -17,11 +17,17 @@ export const WeatherDateGroup = styled.div`
   margin-left: 15px;
 `;
 
-export const WeekDayName = styled.span``;
+export const WeekDayName = styled.span`
+  font-size: 28px;
+`;
 
-export const MonthName = styled.span``;
+export const MonthName = styled.span`
+  margin-left: 5px;
+`;
 
-export const MonthDateNumber = styled.span``;
+export const MonthDateNumber = styled.span`
+  margin-left: 5px;
+`;
 
 export const WeatherInfoGroup = styled.div`
   margin-right: 15px;
@@ -29,4 +35,6 @@ export const WeatherInfoGroup = styled.div`
   align-items: center;
 `;
 
-export const WeatherTemperature = styled.div``;
+export const WeatherTemperature = styled.div`
+  margin-right: 5px;
+`;
