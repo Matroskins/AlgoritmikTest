@@ -2,16 +2,22 @@
   "name": "algoritmictest",
   "version": "0.1.0",
   "private": true,
+  "proxy": "https://www.metaweather.com/api/",
   "dependencies": {
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
-    "react-scripts": "2.0.4"
+    "react-scripts": "2.0.4",
+    "react-svg": "^6.0.18",
+    "styled-components": "^3.4.10"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "eslint-check": "eslint --print-config . | eslint-config-prettier-check",
+    "eslint-fix": "eslint --fix src/**/*.{js,jsx}",
+    "flow": "flow"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -21,5 +27,17 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "babel-plugin-module-resolver": "^3.1.1",
+    "eslint-config-prettier": "^3.1.0",
+    "eslint-plugin-flowtype": "^2.50.3",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-prettier": "^3.0.0",
+    "eslint-plugin-react": "^7.11.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "flow-bin": "^0.83.0",
+    "flow-typed": "^2.5.1"
+  }
 }
