@@ -1,6 +1,4 @@
 import React from "react";
-import ReactSVG from "react-svg";
-import svgTest from "../assets/c.svg";
 
 const iconsNames = {
   Snow: "sn",
